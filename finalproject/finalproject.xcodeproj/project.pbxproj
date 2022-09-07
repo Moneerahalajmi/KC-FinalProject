@@ -11,6 +11,8 @@
 		3914AB0128BBC2070045A0B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3914AB0028BBC2070045A0B7 /* ContentView.swift */; };
 		3914AB0328BBC2130045A0B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3914AB0228BBC2130045A0B7 /* Assets.xcassets */; };
 		3914AB0628BBC2130045A0B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3914AB0528BBC2130045A0B7 /* Preview Assets.xcassets */; };
+		39A959E528C8DA4000D07747 /* Signin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A959E428C8DA4000D07747 /* Signin.swift */; };
+		39A959E928C906EC00D07747 /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A959E828C906EC00D07747 /* Games.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3914AB0028BBC2070045A0B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3914AB0228BBC2130045A0B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3914AB0528BBC2130045A0B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39A959E428C8DA4000D07747 /* Signin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signin.swift; sourceTree = "<group>"; };
+		39A959E828C906EC00D07747 /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,8 @@
 		3914AAF228BBC2070045A0B7 = {
 			isa = PBXGroup;
 			children = (
+				39A959E428C8DA4000D07747 /* Signin.swift */,
+				39A959E828C906EC00D07747 /* Games.swift */,
 				3914AAFD28BBC2070045A0B7 /* finalproject */,
 				3914AAFC28BBC2070045A0B7 /* Products */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				3914AB0128BBC2070045A0B7 /* ContentView.swift in Sources */,
 				3914AAFF28BBC2070045A0B7 /* finalprojectApp.swift in Sources */,
+				39A959E528C8DA4000D07747 /* Signin.swift in Sources */,
+				39A959E928C906EC00D07747 /* Games.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
