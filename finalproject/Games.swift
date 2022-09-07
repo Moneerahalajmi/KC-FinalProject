@@ -54,7 +54,7 @@ struct Games: View {
                 
             }.background(.white.opacity(0.3))
         }
-            }
+            } 
         }
 
 

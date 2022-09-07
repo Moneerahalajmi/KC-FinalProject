@@ -15,7 +15,7 @@ struct Signin: View {
     @State var shwoingSignin = false
     
     var body: some View {
-        NavigationView{
+       
         ZStack{
             Color.yellow
                 .opacity(0.5)
@@ -37,35 +37,36 @@ struct Signin: View {
                     .frame(width:300, height:50)
                     .background(.black.opacity(0.05))
                     .cornerRadius(10)
-                    .border(.red, width: CGFloat(wrongUsername))
+                    .border(username == "amy123" ? .red : .white, width: CGFloat(wrongUsername))
                 TextField("Password", text:$password)
                     .padding()
                     .frame(width:300, height:50)
                     .background(.black.opacity(0.05))
                     .cornerRadius(10)
                     .border(.red, width: CGFloat(wrongPassword))
-                Button("Login") {
-                    authenticateUser(username: username, password: password)
-                } .foregroundColor(.white)
-                    .frame(width: 300, height: 50)
-                    .background(Color.orange)
-                    .cornerRadius(10)
+                
                 NavigationLink( destination: Games()){
-            
+                    Button("Login") {
+                        authenticateUser(username: username, password: password)
+                    } .foregroundColor(.white)
+                        .frame(width: 300, height: 50)
+                        .background(Color.orange)
+                        .cornerRadius(10)
+                }
                 
                 Image("books")
                     .resizable()
-                    .scaledToFit()
-                    .frame(width: 400, height: 300)
-                }
+                   .scaledToFit()
+                                   .frame(width: 400, height: 300)
+                
             }
            
              }
         .navigationBarHidden(true)
-        }
+        
     }
     func authenticateUser( username:String, password:String){
-        if username.lowercased() == "amy2003"{
+        if username.lowercased() == "amy123"{
             wrongUsername = 0
             if password.lowercased() == "abc123"{
                 wrongPassword = 0
